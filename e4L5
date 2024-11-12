@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    int k, i=2, n=2;
+    
+    printf("Digite o valor um valor para saber os seus 10 multiplos: ");
+    scanf("%d", &k);
+    while (i < 11){
+        k*n;
+        printf("%d * %d é: %d", k, n, k*n);
+        n++;
+        i++;
+        
+    }
+    
+     
+    return 0;
+}
