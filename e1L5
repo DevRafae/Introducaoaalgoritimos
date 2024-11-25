@@ -19,23 +19,26 @@ a) Quantas vezes será executado o laço quando o valor de A lido é o último d
 b) Que será impresso? 11//
 
 #include <stdio.h>
-
 int main()
 {
-    int a, v = 1, i = 1;
+    int a, v = 1, i = 1, contador = 0;
     
-    printf("digite o valor de a: ");
+    printf("Digite o ultimo digito do seu RA:(Se o seu RA termina com o, digite 3: ");
     scanf("%d", &a);
     
     while (i <=14){
         if ((i% a) == 0){ 
             v = v*5;
             i= i+2;
+           
         }
         else { i= i+3;
-        v= v+2;}
-        
+        v= v+2;
+      
+        }
+         contador++;
     }
-    printf("valor calculado é = ", v);
+    printf("Valor calculado é = %d\n", v);
+    printf("Numero de vezes que o laço foi executado = %d", contador);
     return 0;
 }
