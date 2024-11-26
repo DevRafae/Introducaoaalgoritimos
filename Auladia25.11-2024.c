@@ -12,4 +12,4 @@ for(i=1; i<n; i++);{
 printf(" a maior altura é %d\n", max); 
 
 return 0;}
-//podemos utilizar isto quando sabemos o valor do maximo e do minimo.
+//podemos utilizar isto quando sabemos o valor do maximo ou do minimo.
